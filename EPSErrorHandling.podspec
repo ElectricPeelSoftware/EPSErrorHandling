@@ -8,8 +8,8 @@ Pod::Spec.new do |s|
   s.author           = { "Peter Stuart" => "peter@electricpeelsoftware.com" }
   s.source           = { :git => "https://github.com/ElectricPeelSoftware/EPSErrorHandling.git", :tag => s.version.to_s }
   
-  s.platform     = :ios, '7.0'
-  s.ios.deployment_target = '7.0'
+  s.platform     = :ios, '6.1'
+  s.ios.deployment_target = '6.1'
   s.requires_arc = true
 
   s.source_files = 'Classes'
